@@ -2,7 +2,7 @@ module.exports = {
     apps: [
       {
         name: 'todoapp',
-        script: 'index.js',
+        script: '/todoapp/index.js',
         instances: 1,
         autorestart: true,
         watch: false,
